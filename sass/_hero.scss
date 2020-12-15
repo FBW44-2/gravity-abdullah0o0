@@ -1,0 +1,38 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 1110px;
+   height: 910px;
+    gap: 5px;
+    .hero-header{
+        display: flex;
+        justify-content: space-between;
+        .hero-header-h{
+            font-family: Fira Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 1;
+            flex-basis: 50%;
+
+        }
+    }
+    .social{
+        display: flex;
+        justify-content: space-between;
+        align-self: flex-end;
+        width: 120px;
+        height: 24px;
+    }
+    .placeholder{
+        width: 1110px;
+        height: 580px;
+        background: url(wallpaperа.jpg);
+    }
+    p{
+        width: 1110px;
+        height: 61px;
+        opacity: 0.7;
+        margin-bottom: 128px;
+    }
+}
